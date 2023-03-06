@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    font-size: 40px;
+}
+body{
+    font-family: 'Montserrat';
+}
+.container{
+    display: flex;
+    border: 0px solid rgb(255, 255, 255);
+    height: 600px;
+    overflow: hidden;
+}
+.one{
+    border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+    background-color:rgb(255, 255, 255);
+    width: 28%;
+    height: 600px;
+    margin-right: 2px;
+    padding: 15px;
+}
+
+.two{
+    border-color: gray;
+    border-width: 2px;
+    border-style:dashed;
+    background-color:rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    width: 31%;
+    height: 600px;
+    display:inline-block; 
+    padding: 15px;
+}
+
+.three{
+    border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    width: 28%;
+    height: 600px;
+    padding: 15px;
+
+}
+
+.year-duration{
+    font-size: 25px;
+    color:rgb(247, 32, 78);
+}
+
+span{
+    color:rgb(247, 32, 78);
+}
+
+.text-description{
+    font-weight: 300;
+    color: black;
+}
+
+hr.new2 {
+    border-top: 2px solid rgb(129, 129, 129);
+}
+
+hr.new1 {
+    width: 40px;
+    margin-left: 4px;
+}
+
+.margin-adjust{
+    margin-top: 30px;
+    line-height: 35px;
+}
+
+.html,.react,.bootstrap,.react,.javascript,.php,.python{
+    display:block;
+}
